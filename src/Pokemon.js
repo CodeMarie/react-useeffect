@@ -1,9 +1,11 @@
-const baseUrl = "https://pokeapi.co/api/v2/pokemon"
-
 function Pokemon(props) {
+
   return (
     <div className="pokemon">
-      {props.pokemon.name}
+      <img alt="" src="" />
+      <h2>{props.pokemon.name}</h2>
+      <h2>height:</h2>
+      <h2>weight:</h2>
     </div>
   )
 }
