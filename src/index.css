@@ -7,7 +7,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  text-align: center;
+}
+
+.container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.pokemon {
+  flex-grow: 1;
+  padding-top: 70px;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  font-size: 20px;  
+  width: 120px;
 }
